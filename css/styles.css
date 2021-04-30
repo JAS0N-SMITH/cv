@@ -1,13 +1,6 @@
 body {
     background-color: #f3f7f8;
-}
-
-table {
-    margin: auto;
-}
-
-td {
-
+    text-align: center;
 }
 
 hr {
@@ -15,7 +8,8 @@ hr {
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
-    width: 5%;
+    width: 10%;
+    padding: 0px 55px 0px 55px;
 }
 
 h1, h3 {
@@ -24,8 +18,15 @@ h1, h3 {
 
 .header {
     margin: auto;
-    width: 75%;
-    text-align: center;
+    padding: 0px 15px;
+    width: 50%;
+}
+
+.employment, .education, .skills {
+    margin: 0% auto;
+    padding: 0px 15px;
+    width: 50%;
+    text-align: left;
 }
 
 .gardening {
@@ -44,15 +45,17 @@ h1, h3 {
     width: 100%;
 }
 
-#skills {
-    margin: auto;
-    padding: 15px;
-    width: 75%;
+#header-p {
+    text-align: left;
+}
+
+#skills-th {
+    text-align: left;
 }
 
 #footer {
     margin: auto;
     padding: 15px;
-    width: 75%;
+    width: 50%;
     text-align: center;
 }
