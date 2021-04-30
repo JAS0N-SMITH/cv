@@ -1,5 +1,13 @@
-body{
-    background-color: #EAF6F6;
+body {
+    background-color: #f3f7f8;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+
 }
 
 hr {
@@ -11,15 +19,40 @@ hr {
 }
 
 h1, h3 {
-    color: #66BFBF;
+    color: #4397a5;
+}
+
+.header {
+    margin: auto;
+    width: 75%;
+    text-align: center;
 }
 
 .gardening {
     width: 320px;
 }
+
 .gaming {
     width: 320px;
 }
+
 .music {
     width: 320px;
+}
+
+#profile-pic {
+    width: 100%;
+}
+
+#skills {
+    margin: auto;
+    padding: 15px;
+    width: 75%;
+}
+
+#footer {
+    margin: auto;
+    padding: 15px;
+    width: 75%;
+    text-align: center;
 }
