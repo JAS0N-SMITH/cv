@@ -1,5 +1,6 @@
 body {
     background-color: #f3f7f8;
+    font-family: Calibri;
 }
 
 table {
@@ -20,6 +21,7 @@ hr {
 
 h1, h2, h3 {
     color: #4397a5;
+    font-family: Arial;
 }
 
 .header {
