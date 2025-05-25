@@ -1,5 +1,5 @@
 # cv
-https://huchknows.github.io/cv/
+https://jas0n-smith.github.io/cv/
 
 This is my professional website!
 I'm new to web development so go easy on me lol 
