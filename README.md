@@ -1,4 +1,7 @@
 # cv
+
+# ARCHIVED 
+
 https://jas0n-smith.github.io/cv/
 
 This is my professional website!
