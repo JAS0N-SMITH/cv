@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Microsoft Certified: Power Platform Fundamentals",
+    "Url": "https://www.credly.com/badges/8143b8f0-04b2-4764-ad06-ddd18f421655/linked_in_profile",
+    "Authority": "Microsoft",
+    "Started On": "Jan 2023",
+    "Finished On": "",
+    "License Number": ""
+  },
+  {
+    "Name": "Microsoft Certified: Power Platform Developer Associate",
+    "Url": "https://learn.microsoft.com/api/credentials/share/en-us/JasonSmith-6946/AC356DC7F3AC8408?sharingId=B31F2144B08DBA60",
+    "Authority": "Microsoft",
+    "Started On": "Sep 2023",
+    "Finished On": "",
+    "License Number": "AC356DC7F3AC8408"
+  },
+  {
+    "Name": "Microsoft Certified: Power Platform Solution Architect Expert",
+    "Url": "https://learn.microsoft.com/api/credentials/share/en-us/JasonSmith-4788/97372794A3EFF5DD?sharingId",
+    "Authority": "Microsoft",
+    "Started On": "Dec 2023",
+    "Finished On": "",
+    "License Number": "97372794A3EFF5DD"
+  },
+  {
+    "Name": "Microsoft Certified: Azure Fundamentals",
+    "Url": "https://learn.microsoft.com/api/credentials/share/en-us/JasonSmith-4788/340670CD8583F8A6?sharingId=B7D0D41B5D6013A3",
+    "Authority": "Microsoft",
+    "Started On": "Feb 2025",
+    "Finished On": "",
+    "License Number": "340670CD8583F8A6"
+  },
+  {
+    "Name": "Boot.dev's Learn Object Oriented Programming in Python Course",
+    "Url": "https://www.boot.dev/certificates/8e8c1638-7b33-4255-b19c-3f0494f1a5db",
+    "Authority": "Boot.dev",
+    "Started On": "Mar 2025",
+    "Finished On": "",
+    "License Number": "8e8c1638-7b33-4255-b19c-3f0494f1a5db"
+  },
+  {
+    "Name": "Boot.dev's Learn Functional Programming in Python Course",
+    "Url": "https://www.boot.dev/certificates/8d2ee0f9-f754-4df8-882e-1724c9d307a9",
+    "Authority": "Boot.dev",
+    "Started On": "Apr 2025",
+    "Finished On": "",
+    "License Number": "8d2ee0f9-f754-4df8-882e-1724c9d307a9"
+  }
+]

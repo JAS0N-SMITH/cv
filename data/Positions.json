@@ -1,0 +1,66 @@
+[
+  {
+    "Company Name": "Axle",
+    "Title": "Full-stack Developer",
+    "Description": "Developed and maintained scalable full-stack applications and system integrations using D3.js, Angular, Loopback, NestJS, SharePoint, and PostgreSQL, improving data accessibility and reducing project vulnerabilities. Led the planning, execution, and optimization of SharePoint on-premise to SharePoint Online migrations, ensuring zero downtime and enhancing collaboration for 200+ users by leveraging SharePoint Add-ins and Active Directory (AAD) for seamless authentication. Designed and implemented an Approval Request System using PowerApps, Power Automate, and SharePoint, cutting approval processing time by ~50% and enabling real-time tracking for 400+ requests annually. Architected Power Platform solutions using Azure On-Premise Data Gateway, Azure Key Vault, and RESTful APIs, enabling secure on-premise resource access without requiring premium Power Automate connectors, reducing licensing costs by ~$50,000–$200,000 annually.",
+    "Location": "United States",
+    "Started On": "Aug 2023",
+    "Finished On": ""
+  },
+  {
+    "Company Name": "Axle Informatics",
+    "Title": "Power Platform Developer",
+    "Description": "Designed and deployed a centralized request management system for publication and presentation approvals at Axle Informatics, automating grant approval workflows and reducing processing time by ~40%. Developed and deployed a Monthly Status Report Management system, automating reporting workflows and reducing manual workload by ~35%, ensuring consistent submissions and streamlined communication between Axle Informatics and federal agencies. Collaborated with cross-functional teams to automate business processes, reducing administrative overhead by ~30% through Power Automate-based workflow optimizations.",
+    "Location": "United States",
+    "Started On": "Feb 2022",
+    "Finished On": "Aug 2023"
+  },
+  {
+    "Company Name": "Axle Informatics",
+    "Title": "Computer Science Trainee",
+    "Description": "Created interactive dashboards and web applications using Node.js, Express, Angular, and Loopback, enabling real-time data visualization and improving enterprise application features. Developed features for a user resource management system prototype, allowing users to assign permissions to resources in a proprietary authentication system. Enhanced application performance by implementing caching and optimizing queries, reducing load times by ~30% for Angular and Express applications.",
+    "Location": "United States",
+    "Started On": "Oct 2021",
+    "Finished On": "Feb 2022"
+  },
+  {
+    "Company Name": "Hyatt Building Supply",
+    "Title": "Customer Service Representative",
+    "Description": "I assist customers with purchases for projects using my experience with and knowledge of building trades and their associated materials. Other duties include building maintenance, the receiving of products into the inventory management system, and the maintenance of the point of sale computer systems and their peripherals. Occasionally I get the opportunity to help customers and co-workers with their technology needs like access features on cell phones or for help diagnosing home network issues.",
+    "Location": "Damascus, MD",
+    "Started On": "Sep 2018",
+    "Finished On": "Oct 2021"
+  },
+  {
+    "Company Name": "Wonderbook and Video",
+    "Title": "Data Entry/ Warehouse Associate",
+    "Description": "Wonderbook and Video has three storefronts in Maryland but most of their sales originate on platforms like Ebay and Amazon. I worked in the warehouse where we sorted and shipped books and digital media.  I eventually worked my way into a data entry position which also included quality assurance and error checking responsibilities.",
+    "Location": "Frederick, MD",
+    "Started On": "Feb 2018",
+    "Finished On": "Sep 2018"
+  },
+  {
+    "Company Name": "Various",
+    "Title": "Food Service Worker",
+    "Description": "I have worked in both fast food and exquisite dining environments. These customer service positions were rewarding and flexible for me as a student, but food service has never been a passion or career pursuit.",
+    "Location": "Frederick, MD",
+    "Started On": "May 2016",
+    "Finished On": "Feb 2018"
+  },
+  {
+    "Company Name": "Lawn and Landscaping at its Finest LLC.",
+    "Title": "General Laborer",
+    "Description": "Lawn and Landscaping at its Finest is my brother's business, and I have helped him when I can. From 2014 to 2016, we ran two trucks for lawn mowing and snow removal. We built patios, decks, and maintained properties for both homeowners and businesses. I left for a more flexible schedule when I decided to go back to school.",
+    "Location": "Frederick, MD",
+    "Started On": "Jun 2014",
+    "Finished On": "May 2016"
+  },
+  {
+    "Company Name": "Various",
+    "Title": "Electrician",
+    "Description": "At first, I was a union member of I.B.E.W Local 26 and an apprentice. I was laid off during the recession and found a job in Frederick. I worked on 4G upgrade equipment, commercial, residential, healthcare buildings, and service jobs. In my last few years as an electrician, I installed building automation/control systems in commercial, industrial, and government buildings. During my time as an electrician, I passed background checks, obtained security clearances to work in local and federal government buildings and military installations.",
+    "Location": "DMV",
+    "Started On": "Aug 2006",
+    "Finished On": "Aug 2014"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "School Name": "University of Maryland Global Campus",
+    "Start Date": "2019",
+    "End Date": "2022",
+    "Notes": "\"The Bachelor of Science in software development and security at University of Maryland Global Campus is designed to teach you programming languages and best practices in software development that are in demand today in the workplace. Study also focuses on the critical element of software security, providing skills in how to find and address possible vulnerabilities.\"  \"UMGC was named a National Center of Academic Excellence in Cyber Defense Education by the National Security Agency and the Department of Homeland Security.\"  https://www.umgc.edu/academic-programs/bachelors-degrees/software-development-and-security.cfm",
+    "Degree Name": "Bachelor's degree",
+    "Activities": "UMGC Computing Club"
+  },
+  {
+    "School Name": "Frederick Community College",
+    "Start Date": "2016",
+    "End Date": "2019",
+    "Notes": "\"The Game and Simulation Development A.A.S. degree program prepares students to hold positions in animation, design, development, engineering, and programming. Game design and development skills covered include animation, graphics, 3D modeling and simulation, game engines, user interfaces, game scripting, and game programming. Students will also learn programming languages, such as Java, C++, C#, and Python.\"  https://www.frederick.edu/programs/science,-technology,-engineering,-and-math-(stem)/game-and-simulation-development.aspx",
+    "Degree Name": "Associates Degree",
+    "Activities": ""
+  },
+  {
+    "School Name": "Urbana High School",
+    "Start Date": "2000",
+    "End Date": "2004",
+    "Notes": "",
+    "Degree Name": "High School Diploma",
+    "Activities": ""
+  }
+]
