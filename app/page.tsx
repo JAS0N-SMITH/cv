@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import profileData from "../data/profile.json";
 
 export default function Home() {
