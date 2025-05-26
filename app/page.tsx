@@ -8,8 +8,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <div className="bg-yellow-200 text-yellow-800 p-4 text-center">
         <p>
-          🚧 This site is currently under construction. Some features may not work
-          as expected. 🚧
+          🚀 Welcome to my updated CV site! Stay tuned for more updates. 🚀
         </p>
       </div>
       <main className="flex flex-col gap-4 items-center">
