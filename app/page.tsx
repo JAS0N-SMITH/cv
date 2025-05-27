@@ -26,7 +26,7 @@ export default function Home() {
         </p>
       </div>
       <main className="flex flex-col gap-8 items-center">
-        {['Profile', 'Positions', 'Education', 'Certifications', 'Skills', 'Rich_Media'].map((sectionKey) => {
+        {['Profile', 'Positions', 'Education', 'Certifications', 'Skills'].map((sectionKey) => {
           if (!data[sectionKey]) return null;
 
           switch (sectionKey) {
@@ -71,6 +71,9 @@ export default function Home() {
                         <p className="text-sm text-gray-500">
                           {education["Start Date"]} - {education["End Date"]}
                         </p>
+                        {education["Notes"] && (
+                          <p className="text-sm text-gray-700 mt-2">{education["Notes"]}</p>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -85,64 +88,35 @@ export default function Home() {
                   <ul className="space-y-4">
                     {data[sectionKey].map((certification: any, index: number) => (
                       <li key={index} className="border-b pb-4">
-                        <h3 className="text-xl font-semibold text-gray-800">{certification.Name}</h3>
-                        <p className="text-gray-600">Authority: {certification.Authority}</p>
-                        <p className="text-sm text-gray-500">
-                          {certification["Started On"]} - {certification["Finished On"] || "Present"}
-                        </p>
-                        {certification["License Number"] && (
-                          <p className="text-sm text-gray-500">License: {certification["License Number"]}</p>
-                        )}
-                        {certification.Url && (
-                          <a
-                            href={certification.Url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 underline"
-                          >
-                            View Certification
-                          </a>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              );
-            }
-
-            case 'Skills': {
-              return (
-                <section key={sectionKey} className="w-full max-w-4xl p-6 border rounded-lg shadow-lg bg-gray-100">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Skills</h2>
-                  <div className="flex flex-wrap gap-2">
-                    {data[sectionKey].map((skill: any, index: number) => (
-                      <span
-                        key={index}
-                        className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
-                      >
-                        {skill.Name}
-                      </span>
-                    ))}
-                  </div>
-                </section>
-              );
-            }
-
-            case 'Rich_Media': {
-              return (
-                <section key={sectionKey} className="w-full max-w-4xl p-6 border rounded-lg shadow-lg bg-gray-100">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Rich Media</h2>
-                  <ul className="space-y-4">
-                    {data[sectionKey].map((media: any, index: number) => (
-                      <li key={index} className="border-b pb-4">
-                        <a
-                          href={media.URL}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-600 underline"
-                        >
-                          {media.Title}
-                        </a>
+                        <div className="flex items-center">
+                          <div className="w-40 flex-shrink-0 flex justify-center pr-4">
+                            {certification["Media Link"] && (
+                              <img
+                                src={certification["Media Link"]}
+                                alt={certification.Name}
+                                className="max-w-full max-h-32 rounded-lg shadow-md object-contain"
+                              />
+                            )}
+                          </div>
+                          <div className="flex-1">
+                            <h3 className="text-xl font-semibold text-gray-800">{certification.Name}</h3>
+                            <p className="text-gray-600">Authority: {certification.Authority}</p>
+                            <p className="text-sm text-gray-500">{certification["Started On"]}</p>
+                            {certification["License Number"] && (
+                              <p className="text-sm text-gray-500">License: {certification["License Number"]}</p>
+                            )}
+                            {certification.Url && (
+                              <a
+                                href={certification.Url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 underline"
+                              >
+                                View Certification
+                              </a>
+                            )}
+                          </div>
+                        </div>
                       </li>
                     ))}
                   </ul>

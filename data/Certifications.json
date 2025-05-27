@@ -1,11 +1,12 @@
 [
   {
-    "Name": "Microsoft Certified: Power Platform Fundamentals",
-    "Url": "https://www.credly.com/badges/8143b8f0-04b2-4764-ad06-ddd18f421655/linked_in_profile",
+    "Name": "Microsoft Certified: Power Platform Solution Architect Expert",
+    "Url": "https://learn.microsoft.com/api/credentials/share/en-us/JasonSmith-4788/97372794A3EFF5DD?sharingId",
     "Authority": "Microsoft",
-    "Started On": "Jan 2023",
+    "Started On": "Dec 2023",
     "Finished On": "",
-    "License Number": ""
+    "License Number": "97372794A3EFF5DD",
+    "Media Link": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
   },
   {
     "Name": "Microsoft Certified: Power Platform Developer Associate",
@@ -13,15 +14,17 @@
     "Authority": "Microsoft",
     "Started On": "Sep 2023",
     "Finished On": "",
-    "License Number": "AC356DC7F3AC8408"
+    "License Number": "AC356DC7F3AC8408",
+    "Media Link": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
   },
   {
-    "Name": "Microsoft Certified: Power Platform Solution Architect Expert",
-    "Url": "https://learn.microsoft.com/api/credentials/share/en-us/JasonSmith-4788/97372794A3EFF5DD?sharingId",
+    "Name": "Microsoft Certified: Power Platform Fundamentals",
+    "Url": "https://www.credly.com/badges/8143b8f0-04b2-4764-ad06-ddd18f421655/linked_in_profile",
     "Authority": "Microsoft",
-    "Started On": "Dec 2023",
+    "Started On": "Jan 2023",
     "Finished On": "",
-    "License Number": "97372794A3EFF5DD"
+    "License Number": "",
+    "Media Link": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
   },
   {
     "Name": "Microsoft Certified: Azure Fundamentals",
@@ -29,7 +32,8 @@
     "Authority": "Microsoft",
     "Started On": "Feb 2025",
     "Finished On": "",
-    "License Number": "340670CD8583F8A6"
+    "License Number": "340670CD8583F8A6",
+    "Media Link": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
   },
   {
     "Name": "Boot.dev's Learn Object Oriented Programming in Python Course",
@@ -37,7 +41,8 @@
     "Authority": "Boot.dev",
     "Started On": "Mar 2025",
     "Finished On": "",
-    "License Number": "8e8c1638-7b33-4255-b19c-3f0494f1a5db"
+    "License Number": "8e8c1638-7b33-4255-b19c-3f0494f1a5db",
+    "Media Link": "https://media.licdn.com/dms/image/v2/D4E2DAQHeKDLF_GVxjA/profile-treasury-image-shrink_8192_8192/B4EZYSaa9AG0Ag-/0/1744065638812?e=2147483647&v=beta&t=_4O8xxUzJbNKaELhG4RXl1uIcJHYMruJE5_GP9475Z8"
   },
   {
     "Name": "Boot.dev's Learn Functional Programming in Python Course",
@@ -45,6 +50,7 @@
     "Authority": "Boot.dev",
     "Started On": "Apr 2025",
     "Finished On": "",
-    "License Number": "8d2ee0f9-f754-4df8-882e-1724c9d307a9"
+    "License Number": "8d2ee0f9-f754-4df8-882e-1724c9d307a9",
+    "Media Link": "https://media.licdn.com/dms/image/v2/D4E2DAQFfXtLVa_A13w/profile-treasury-image-shrink_8192_8192/B4EZYSZYRBHYAo-/0/1744065365567?e=2147483647&v=beta&t=JSv6QDy22pW9g3gflsMeLJarIO7BVHgMvPixNoksrB0"
   }
 ]

@@ -13,6 +13,8 @@ if (!fs.existsSync(outputDirPath)) {
   fs.mkdirSync(outputDirPath, { recursive: true });
 }
 
+const ignoredFiles = ["Rich_Media.json"];
+
 fs.readdir(inputDirPath, (err, files) => {
   if (err) {
     console.error("Error reading the input directory:", err);
@@ -20,7 +22,9 @@ fs.readdir(inputDirPath, (err, files) => {
   }
 
   const csvFiles = files.filter(
-    (file) => path.extname(file).toLowerCase() === ".csv"
+    (file) =>
+      path.extname(file).toLowerCase() === ".csv" &&
+      !ignoredFiles.includes(file)
   );
 
   csvFiles.forEach((file) => {
