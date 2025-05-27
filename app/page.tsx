@@ -49,8 +49,8 @@ export default function Home() {
                     {data[sectionKey].map((position: any, index: number) => (
                       <li key={index} className="border-b pb-4">
                         <h3 className="text-xl font-semibold text-gray-800">{position.Title}</h3>
-                        <p className="text-gray-600">{position.CompanyName}</p>
-                        <p className="text-sm text-gray-500">{`${position.StartDate} - ${position.EndDate || 'Present'}`}</p>
+                        <p className="text-gray-600">{position["Company Name"]}</p>
+                        <p className="text-sm text-gray-500">{`${position["Started On"]} - ${position["Finished On"]|| 'Present'}`}</p>
                         <p className="text-gray-700 mt-2">{position.Description}</p>
                       </li>
                     ))}
