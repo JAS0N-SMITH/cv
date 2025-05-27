@@ -1,6 +1,6 @@
 [
   {
-    "Company Name": "Axle",
+    "Company Name": "Axle Informatics",
     "Title": "Full-stack Developer",
     "Description": "Developed and maintained scalable full-stack applications and system integrations using D3.js, Angular, Loopback, NestJS, SharePoint, and PostgreSQL, improving data accessibility and reducing project vulnerabilities. Led the planning, execution, and optimization of SharePoint on-premise to SharePoint Online migrations, ensuring zero downtime and enhancing collaboration for 200+ users by leveraging SharePoint Add-ins and Active Directory (AAD) for seamless authentication. Designed and implemented an Approval Request System using PowerApps, Power Automate, and SharePoint, cutting approval processing time by ~50% and enabling real-time tracking for 400+ requests annually. Architected Power Platform solutions using Azure On-Premise Data Gateway, Azure Key Vault, and RESTful APIs, enabling secure on-premise resource access without requiring premium Power Automate connectors, reducing licensing costs by ~$50,000–$200,000 annually.",
     "Location": "United States",
