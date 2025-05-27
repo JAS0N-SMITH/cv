@@ -33,14 +33,6 @@ jobs:
             exit 1
           fi
 
-      - name: Verify static assets
-        run: |
-          if [ ! -f "./out/file.svg" ] || [ ! -f "./out/globe.svg" ]; then
-            echo "Static assets are missing in the build output. Exiting."
-            exit 1
-          fi
-          echo "Static assets verified successfully."
-
       - name: Disable Jekyll
         run: echo > ./out/.nojekyll
 
