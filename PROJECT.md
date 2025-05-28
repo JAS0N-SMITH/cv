@@ -159,5 +159,3 @@ my-cv/
 The design and architecture outlined above provide a clear plan for building and maintaining a state-of-the-art CV website that leverages Next.js and Tailwind CSS for modern UI, integrates data from LinkedIn exports, and deploys as a static site to GitHub Pages. By automating data ingestion and deployment, the solution remains both robust and scalable, aligning perfectly with the objectives of maintaining a cutting-edge developer portfolio.
 
 ---
-
-This document should serve as the primary guide for the project and be updated as new features or improvements are added. If there are any questions or further details needed on any section, please let me know!
