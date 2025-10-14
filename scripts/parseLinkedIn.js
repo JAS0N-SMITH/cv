@@ -2,10 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const csvParser = require('csv-parser');
 
-const inputDirPath = path.join(
-  __dirname,
-  "../Basic_LinkedInDataExport_05-26-2025.zip"
-);
+const inputDirPath = path.join(__dirname, "../linkedin-data");
 const outputDirPath = path.join(__dirname, "../data");
 
 // Ensure the output directory exists
