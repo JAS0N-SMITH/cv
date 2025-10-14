@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 *Basic_LinkedInDataExport*
+*LinkedIn Data Export*
+*linkedin-data*
 
 # dependencies
 /node_modules
@@ -42,3 +44,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 node_modules
+data/Learning.json
+data/Rich_Media.json
+data/Skills.json
