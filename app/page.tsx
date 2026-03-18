@@ -9,9 +9,11 @@ export default function Home() {
   const dataDir = path.join(process.cwd(), "data");
   const files = fs.readdirSync(dataDir);
 
+  const resolvedDataDir = path.resolve(dataDir);
   const data: Data = files.reduce((acc: Data, file: string) => {
     if (path.extname(file) === ".json") {
       const filePath = path.join(dataDir, file);
+      if (!path.resolve(filePath).startsWith(resolvedDataDir + path.sep)) return acc;
       const fileData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
       acc[path.basename(file, ".json")] = fileData;
     }

@@ -2,20 +2,22 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This is a personal CV site. Only the latest deployed version is maintained.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| latest  | ✅        |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please report security vulnerabilities by opening a [GitHub issue](https://github.com/JAS0N-SMITH/cv/issues) with the label `security`.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+You can expect an acknowledgement within a few days. If the vulnerability is accepted, a fix will be prioritised and a patched version deployed as soon as practical. If declined, an explanation will be provided.
+
+## Scope
+
+This is a statically exported Next.js site hosted on GitHub Pages. It has no server-side logic, no user authentication, and no database. The primary attack surface is:
+
+- Third-party dependencies (monitored via Dependabot and `npm audit`)
+- External font/icon CDN resources (Google Fonts)
+- Data files in the `data/` directory
