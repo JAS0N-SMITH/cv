@@ -1,6 +1,6 @@
 # CV Website: Project Design and Architecture Document
 
-_Last Updated: May 2025_
+_Last Updated: March 2026_
 
 ## 1. Overview
 
@@ -45,26 +45,26 @@ This project is designed as a personal CV website for a software developer. The 
 - **LinkedIn Data Export:**  
   The website leverages manually exported CSV files from LinkedIn (containing certification, work experience, and education details). These serve as the primary data source for dynamically updating the CV content.
 
-- **Parsing Script:**  
-  A Node.js script (using the `csv-parser` package) converts CSV files (e.g., `Certifications.csv`) into JSON files stored in a designated `data` directory. This JSON is then consumed by Next.js at build time using `getStaticProps`.
+- **Parsing Script:**
+  A Node.js script (using the `csv-parser` package) converts CSV files (e.g., `Certifications.csv`) into JSON files stored in a designated `data` directory. This JSON is consumed by Next.js at build time via direct `fs` reads in the App Router's server components.
 
 - **Data File Structure:**  
   The conversion outputs are stored in a structured folder (`/data`) that is read during the static generation phase to update the site's content.
 
 ### 3.3 Build and Deployment
 
-- **Static Export with Next.js:**  
-  The site is exported as a static site using `next export`. The Next.js configuration (`next.config.js`) is set up specifically with `trailingSlash`, `assetPrefix`, and `basePath` settings for compatibility with GitHub Pages.
+- **Static Export with Next.js:**
+  The site is exported as a static site via `output: "export"` in `next.config.ts`. The configuration includes `trailingSlash`, `assetPrefix`, and `basePath` settings for compatibility with GitHub Pages. Running `npm run build` produces the static output in the `out` directory.
 
-- **GitHub Pages Hosting:**  
-  The fully static build output is deployed to a separate branch (typically `gh-pages`) to be served via GitHub Pages.
+- **GitHub Pages Hosting:**
+  The static build output is deployed directly to GitHub Pages using the OIDC-based GitHub Actions deployment workflow (source set to "GitHub Actions" in repo Settings > Pages).
 
-- **Continuous Integration with GitHub Actions (Optional):**  
-  An automated workflow is defined to:
-  - Trigger on pushes to the main branch.
-  - Install dependencies.
-  - Run the build and export commands.
-  - Deploy the generated `out` directory to the GitHub Pages branch using an action such as `peaceiris/actions-gh-pages`.
+- **Continuous Integration with GitHub Actions:**
+  An automated workflow (`.github/workflows/deploy.yml`) triggers on pushes to `master` and:
+  - Installs dependencies with `npm ci`.
+  - Configures Pages and builds the project.
+  - Uploads the `out` directory as a Pages artifact.
+  - Deploys via OIDC using `actions/deploy-pages` (least-privilege `pages: write` + `id-token: write` permissions, no long-lived tokens required).
 
 ---
 
@@ -72,10 +72,11 @@ This project is designed as a personal CV website for a software developer. The 
 
 | Layer                | Technology / Tool                                  | Role                                           |
 |----------------------|----------------------------------------------------|------------------------------------------------|
-| **Frontend**         | Next.js, React                                     | UI, SSG/SSR, Page and Component Management     |
+| **Frontend**         | Next.js 16, React 19                               | UI, SSG, App Router                            |
 | **Styling**          | Tailwind CSS                                       | Responsive and modern UI design                |
 | **Scripting/Parsing**| Node.js with csv-parser                            | Process CSV data from LinkedIn into JSON        |
-| **Deployment**       | GitHub Pages, GitHub Actions (CI/CD)               | Hosting and automated deployment              |
+| **Runtime**          | Node.js 24                                         | Build environment (required >=20.9.0)          |
+| **Deployment**       | GitHub Pages, GitHub Actions (CI/CD, OIDC)         | Hosting and automated deployment               |
 
 ---
 
@@ -84,22 +85,22 @@ This project is designed as a personal CV website for a software developer. The 
 A suggested structure for the project is as follows:
 
 ```
-my-cv/
-├── components/           # Reusable React components (e.g., layout, header, footer)
+cv/
+├── app/                  # Next.js App Router
+│   ├── layout.tsx        # Root layout (fonts, CSP meta tag)
+│   ├── page.tsx          # Homepage — reads JSON data and renders CV sections
+│   └── globals.css       # Global styles (Tailwind, Google Fonts)
 ├── data/                 # Parsed JSON data files extracted from CSV exports
-├── docs/                 # Documentation (including this architecture document)
 ├── linkedin-data/        # Original CSV files exported from LinkedIn
-├── next.config.js        # Next.js configuration for static export and asset prefixing
-├── pages/                # Next.js pages (with getStaticProps integrating data)
-│   ├── index.js        # Homepage showing CV details like certifications
-│   └── ...
+├── next.config.ts        # Next.js configuration (static export, basePath, assetPrefix)
 ├── public/               # Static assets (images, fonts, etc.)
 ├── scripts/              # Node.js scripts (e.g., CSV parsing)
-│   └── parseLinkedIn.js # Script for converting LinkedIn CSV data into JSON format
-├── .github/              # GitHub Actions workflows for CI/CD automation
+│   └── parseLinkedIn.js  # Script for converting LinkedIn CSV data into JSON format
+├── .github/
 │   └── workflows/
-│       └── deploy.yml   # Workflow to build and deploy to GitHub Pages
-├── styles/               # Global and component-specific CSS (Tailwind CSS directives live here)
+│       └── deploy.yml    # OIDC-based GitHub Actions build and deploy workflow
+├── SECURITY.md           # Security policy and vulnerability reporting
+├── PROJECT.md            # This document
 └── package.json          # Project metadata and scripts
 ```
 
@@ -113,12 +114,12 @@ my-cv/
 2. **Data Parsing:**  
    - The Node.js script (`scripts/parseLinkedIn.js`) is executed either manually or as part of a CI/CD pipeline to read the CSV files and output JSON files to the `/data` directory.
 
-3. **Static Site Generation:**  
-   - Next.js consumes the JSON data via the `getStaticProps` methods in pages (e.g., `pages/index.js`), integrating up-to-date information into the rendered CV site.
-   - The site is built and statically exported into the `out` folder using `npm run build && npm run export`.
+3. **Static Site Generation:**
+   - Next.js consumes the JSON data via `fs` reads inside the App Router server component (`app/page.tsx`), integrating up-to-date information into the rendered CV site.
+   - The site is built and statically exported into the `out` folder using `npm run build`.
 
-4. **Deployment:**  
-   - The contents of the `out` directory are deployed to GitHub Pages either manually or automatically via GitHub Actions, ensuring that the site reflects the latest data exports.
+4. **Deployment:**
+   - The contents of the `out` directory are deployed to GitHub Pages automatically via GitHub Actions using OIDC identity tokens (no long-lived secrets required). GitHub Pages must be configured to use "GitHub Actions" as the deployment source.
 
 ---
 
