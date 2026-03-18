@@ -2,7 +2,7 @@
   {
     "Company Name": "Axle Informatics, LLC",
     "Title": "Lead Power Platform Developer | Full-Stack Software Engineer",
-    "Description": "Leading development of an enterprise AI platform using React Native for desktop and Supabase (PostgreSQL, Auth, Functions, Vault) for backend, consolidating organizational LLM usage and enabling shared context across teams. Research and implement AI-assisted development workflows using Cursor IDE, GitHub Copilot, and Claude, applying agentic AI frameworks to automate documentation, improve code review quality, and accelerate feature prototyping. Maintain 12+ Microsoft Power Platform and SharePoint solutions for NIH (NHLBI); define governance frameworks, development standards, and best practices to meet federal guidelines. Mentor 1 developer and assist 2 testers with automated testing integration for Canvas and Model-driven apps; lead code reviews and reusable component development. Automate environment management with PowerShell and Python; co-administer shared Dev/Test environments while coordinating with DevOps for staging and production.",
+    "Description": "Leading development of an enterprise AI platform using React Native for desktop, Supabase (PostgreSQL, Auth, Functions, Vault) for backend, consolidating organizational LLM usage and enabling shared context across teams. Research and implement AI-assisted development workflows using Cursor, Copilot, and Claude, applying agentic AI frameworks to automate documentation, improve code review quality, and accelerate feature prototyping. Maintain 15+ Microsoft Power Platform and SharePoint solutions for a federal program; define governance frameworks, development standards, and best practices to meet federal guidelines. Mentor 1 developer and assist 2 testers with automated testing integration for Canvas and Model-driven apps; lead code reviews and reusable component development. Expand Power Platform footprint as legacy SharePoint 2016/Nintex workflows and .NET applications are decommissioned and migrated to modern solutions. Automate environment management with PowerShell and Python; co-administer shared Dev/Test environments while coordinating with DevOps for staging and production.",
     "Location": "United States",
     "Started On": "Feb 2025",
     "Finished On": ""
@@ -10,7 +10,7 @@
   {
     "Company Name": "Axle Informatics, LLC",
     "Title": "Power Platform Developer | Full-Stack Software Developer",
-    "Description": "Developed and maintained full-stack applications using Angular, React, Next.js, NestJS, LoopBack, and .NET with PostgreSQL and MongoDB backends, improving data accessibility and reducing vulnerabilities. Designed and deployed Power Platform solutions; integrated Power BI dashboards for real-time reporting and KPI-aligned insights. Led a SharePoint migration for 200+ users; implemented Microsoft Entra ID authentication with zero downtime using Angular and modern authentication patterns. Built an Approval Request system (Power Apps + Power Automate + SharePoint), reducing approval cycle time by ~50% and tracking 400+ requests annually. Architected secure on-prem access with Azure On-Premises Data Gateway, Key Vault, and REST APIs, saving $50K–$200K annually.",
+    "Description": "Developed and maintained full-stack applications using Angular, React, Next.js, NestJS, LoopBack, and .NET with PostgreSQL and MongoDB backends, improving data accessibility and reducing vulnerabilities. Designed and deployed Power Platform solutions; integrated Power BI dashboards for real-time reporting and KPI-aligned insights. Led a SharePoint migration for 200+ users; implemented Microsoft Entra ID authentication with zero downtime using Angular and modern authentication patterns. Built an Approval Request system (Power Apps + Power Automate + SharePoint), reducing approval cycle time by 50% and tracking 400+ requests annually. Architected secure on-prem access with Azure On-Premises Data Gateway, Key Vault, and REST APIs, saving $50K–$200K annually.",
     "Location": "United States",
     "Started On": "Aug 2023",
     "Finished On": "Jan 2025"
@@ -18,7 +18,7 @@
   {
     "Company Name": "Axle Informatics, LLC",
     "Title": "Power Platform Developer",
-    "Description": "Launched a centralized request management system, automating publication and presentation approvals and reducing processing time by ~40%. Authored Power BI reports for leadership, improving visibility into project status and resource allocation. Built a Monthly Status Report Management solution, automating reporting workflows and reducing manual workload by ~35%. Partnered with cross-functional teams to automate business processes, cutting administrative overhead by ~30% through Power Automate-based workflow optimizations.",
+    "Description": "Launched a centralized request management system, automating approvals and reducing processing time by 40%. Authored Power BI reports for leadership, improving visibility into project status and resource allocation. Built a Monthly Status Report Management solution, automating reporting workflows and reducing manual workload by 35%. Partnered with cross-functional teams to automate processes, cutting administrative overhead by 30%.",
     "Location": "United States",
     "Started On": "Feb 2022",
     "Finished On": "Aug 2023"
@@ -26,7 +26,7 @@
   {
     "Company Name": "Axle Informatics, LLC",
     "Title": "Computer Science Trainee",
-    "Description": "Built dashboards and web applications using Node.js, Express, Angular, and LoopBack for real-time data visualization and improved enterprise application features. Developed features for a resource management prototype with role-based permissions in a proprietary authentication system. Improved application performance via caching and query optimization, reducing load times by ~30%.",
+    "Description": "Built dashboards and web applications using Node.js, Express, Angular, and LoopBack for real-time data visualization. Developed features for a resource management prototype with role-based permissions. Improved application performance via caching and query optimization, reducing load times by 30%.",
     "Location": "United States",
     "Started On": "Oct 2021",
     "Finished On": "Feb 2022"
