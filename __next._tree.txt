@@ -8,4 +8,4 @@
 :HL["https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg","image"]
 :HL["https://media.licdn.com/dms/image/v2/D4E2DAQHeKDLF_GVxjA/profile-treasury-image-shrink_8192_8192/B4EZYSaa9AG0Ag-/0/1744065638812?e=2147483647&v=beta&t=_4O8xxUzJbNKaELhG4RXl1uIcJHYMruJE5_GP9475Z8","image"]
 :HL["https://media.licdn.com/dms/image/v2/D4E2DAQFfXtLVa_A13w/profile-treasury-image-shrink_8192_8192/B4EZYSZYRBHYAo-/0/1744065365567?e=2147483647&v=beta&t=JSv6QDy22pW9g3gflsMeLJarIO7BVHgMvPixNoksrB0","image"]
-0:{"buildId":"0-xTfoq14oqwUMTFO7Bww","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"CGKfGEX5R8W74B8M8HcmD","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
