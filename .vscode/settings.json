@@ -1,0 +1,9 @@
+{
+    "sarif-viewer.connectToGithubCodeScanning": "on",
+    "github.copilot.enable": {
+        "markdown": true,
+        "plaintext": true
+    },
+    "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
+    "github.copilot.completions.chat.enabled": true
+}
